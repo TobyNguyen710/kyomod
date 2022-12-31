@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "kyomod:lands_end_biome",
+    "kyomod:the_abyss_biome"
+  ],
+  "features": "kyomod:lily",
+  "step": "vegetal_decoration"
+}

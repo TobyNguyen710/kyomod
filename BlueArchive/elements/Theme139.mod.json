@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Theme 139",
+    "texture": "theme139",
+    "description": "MERRY CHRISTMAS!",
+    "creativeTab": {
+      "value": "CUSTOM:BlueArchive"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:theme139"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

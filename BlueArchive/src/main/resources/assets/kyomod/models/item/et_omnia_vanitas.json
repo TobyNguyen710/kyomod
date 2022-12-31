@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kyomod:items/weapon_icon_10019"
+  }
+}

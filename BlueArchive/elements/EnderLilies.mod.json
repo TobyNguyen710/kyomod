@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Ender Lilies",
+    "icon": {
+      "value": "CUSTOM:LandsEndDimension"
+    },
+    "showSearch": true
+  }
+}

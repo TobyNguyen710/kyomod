@@ -1,0 +1,122 @@
+{
+  "theme140": {
+    "category": "music",
+    "subtitle": "subtitles.theme140",
+    "sounds": [
+      {
+        "name": "kyomod:theme-140",
+        "stream": true
+      }
+    ]
+  },
+  "gunshot": {
+    "category": "master",
+    "subtitle": "subtitles.gunshot",
+    "sounds": [
+      {
+        "name": "kyomod:gunshot-sound-effect-single-shot-audiotrimmer.com",
+        "stream": false
+      }
+    ]
+  },
+  "midori_shoot": {
+    "category": "master",
+    "subtitle": "subtitles.midori_shoot",
+    "sounds": [
+      {
+        "name": "kyomod:midori_se",
+        "stream": false
+      }
+    ]
+  },
+  "modori_skill_2": {
+    "category": "master",
+    "subtitle": "subtitles.modori_skill_2",
+    "sounds": [
+      {
+        "name": "kyomod:midori_battle_tsa_2",
+        "stream": false
+      }
+    ]
+  },
+  "modori_skill_1": {
+    "category": "master",
+    "subtitle": "subtitles.modori_skill_1",
+    "sounds": [
+      {
+        "name": "kyomod:midori_battle_tsa_1",
+        "stream": false
+      }
+    ]
+  },
+  "azusa_shoot": {
+    "category": "master",
+    "subtitle": "subtitles.azusa_shoot",
+    "sounds": [
+      {
+        "name": "kyomod:azusa_se",
+        "stream": false
+      }
+    ]
+  },
+  "azusa_skill": {
+    "category": "master",
+    "subtitle": "subtitles.azusa_skill",
+    "sounds": [
+      {
+        "name": "kyomod:azusa_exskill_2",
+        "stream": false
+      }
+    ]
+  },
+  "theme139": {
+    "category": "music",
+    "subtitle": "subtitles.theme139",
+    "sounds": [
+      {
+        "name": "kyomod:theme_139",
+        "stream": true
+      }
+    ]
+  },
+  "reanimate": {
+    "category": "music",
+    "subtitle": "subtitles.reanimate",
+    "sounds": [
+      {
+        "name": "kyomod:reanimate",
+        "stream": true
+      }
+    ]
+  },
+  "bulbel": {
+    "category": "music",
+    "subtitle": "subtitles.bulbel",
+    "sounds": [
+      {
+        "name": "kyomod:bulbel",
+        "stream": true
+      }
+    ]
+  },
+  "ender_lilies": {
+    "category": "music",
+    "subtitle": "subtitles.ender_lilies",
+    "sounds": [
+      {
+        "name": "kyomod:ender_lilies",
+        "stream": true
+      }
+    ]
+  },
+  "harmonious": {
+    "category": "music",
+    "subtitle": "subtitles.harmonious",
+    "sounds": [
+      {
+        "name": "kyomod:harmonious",
+        "stream": true
+      }
+    ]
+  }
+}

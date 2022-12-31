@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Bulbel",
+    "texture": "bulbel",
+    "description": "Bulbel",
+    "creativeTab": {
+      "value": "CUSTOM:EnderLilies"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:bulbel"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

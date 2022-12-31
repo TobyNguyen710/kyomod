@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#51"
+    },
+    "name": "skeleton_spawn_egg",
+    "namespace": "mod"
+  }
+}

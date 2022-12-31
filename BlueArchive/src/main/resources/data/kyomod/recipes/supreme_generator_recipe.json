@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kyomod:halo_core"
+    },
+    "1": {
+      "item": "kyomod:halo_core"
+    },
+    "2": {
+      "item": "kyomod:halo_core"
+    },
+    "3": {
+      "item": "kyomod:halo_core"
+    },
+    "4": {
+      "item": "kyomod:generator"
+    },
+    "5": {
+      "item": "kyomod:halo_core"
+    },
+    "6": {
+      "item": "kyomod:halo_core"
+    },
+    "7": {
+      "item": "kyomod:halo_core"
+    },
+    "8": {
+      "item": "kyomod:halo_core"
+    }
+  },
+  "result": {
+    "item": "kyomod:supreme_generator",
+    "count": 1
+  }
+}

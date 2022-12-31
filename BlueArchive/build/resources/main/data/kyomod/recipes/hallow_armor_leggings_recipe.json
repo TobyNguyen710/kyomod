@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "kyomod:halo_core"
+  },
+  "result": {
+    "item": "kyomod:hallow_armor_leggings"
+  }
+}
