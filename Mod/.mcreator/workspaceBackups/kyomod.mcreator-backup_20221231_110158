@@ -1544,8 +1544,8 @@
       "item.bluearchive.theme_140.desc": "ARIS!!!!!",
       "item.minecraft.splash_potion.effect.keep_inventory_potion": "§aSplash Potion of Keep Inventory",
       "subtitles.midori_skill_1": "Midori uses skill",
-      "key.kyomod.v": "Skills",
       "item.bluearchive.halo_nugget": "Halo Nugget",
+      "key.kyomod.v": "Skills",
       "item.bluearchive.hallow_armor_chestplate": "Hallow Chestplate",
       "subtitles.midori_skill_2": "Midori uses skill",
       "item.kyomod.theme_139.desc": "MERRY CHRISTMAS!",
@@ -1553,18 +1553,18 @@
       "item.minecraft.potion.effect.hero_of_the_village_potion": "§ePotion of Hero Of The Village",
       "item.minecraft.tipped_arrow.effect.xp_potion": "Arrow of XP",
       "subtitles.reanimate": "§4REANIMATION!",
-      "item.bluearchive.fresh_inpiration_2": "§aFresh Inspiration 1",
       "item.kyomod.halo_nugget": "Halo Nugget",
+      "item.bluearchive.fresh_inpiration_2": "§aFresh Inspiration 1",
       "block.kyomod.lily": "§cLily",
       "item.kyomod.hallow_shovel": "Hallow Shovel",
-      "item.bluearchive.fresh_inpiration": "§aFresh Inpiration",
       "effect.kyomod.keep_inventory": "Keep Inventory",
+      "item.bluearchive.fresh_inpiration": "§aFresh Inpiration",
       "item.minecraft.lingering_potion.effect.hero_of_the_village_potion": "§eLingering Potion of Hero Of The Village",
       "block.kyomod.blighted_wood_slab": "BlightedWood Slab",
-      "item.kyomod.bulbel.desc": "Bulbel",
       "item.minecraft.tipped_arrow.effect.hero_of_the_village_potion": "§eArrow of Hero Of The Village",
-      "item.kyomod.theme_140.desc": "ARIS!!!!!",
+      "item.kyomod.bulbel.desc": "Bulbel",
       "subtitles.testsound": "",
+      "item.kyomod.theme_140.desc": "ARIS!!!!!",
       "block.bluearchive.halo_block": "Block of Halo",
       "item.bluearchive.hallow_axe": "Hallow Axe",
       "item.minecraft.lingering_potion.effect.unlimited_night_vision": "§bLingering Potion of Unlimited Night Vision",
@@ -1685,6 +1685,10 @@
       },
       {
         "name": "MISC",
+        "children": []
+      },
+      {
+        "name": "L4D2",
         "children": []
       }
     ]
