@@ -1,2 +1,2 @@
 # kyomod
-This is my first Minecraft Mod (use for learning). AMaybe more
+This is my first Minecraft Mod (use for learning)
