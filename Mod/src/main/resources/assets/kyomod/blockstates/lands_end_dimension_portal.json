@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "kyomod:block/lands_end_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "kyomod:block/lands_end_dimension_portal_ns"
+    }
+  }
+}

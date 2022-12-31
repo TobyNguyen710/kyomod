@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Halo"
+      },
+      {
+        "value": "CUSTOM:Halo"
+      },
+      {
+        "value": "CUSTOM:Halo"
+      },
+      {
+        "value": "CUSTOM:Halo"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      },
+      {
+        "value": "CUSTOM:Halo"
+      },
+      {
+        "value": "CUSTOM:HaloBlock"
+      },
+      {
+        "value": "CUSTOM:HaloBlock"
+      },
+      {
+        "value": "CUSTOM:HaloBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Generator"
+    },
+    "name": "generator_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "kyomod:blighted_stone",
+    "kyomod:blighted_grass",
+    "kyomod:blighted_dirt"
+  ]
+}

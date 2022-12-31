@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "§bPotion of Unlimited Night Vision",
+    "splashName": "§bSplash Potion of Unlimited Night Vision",
+    "lingeringName": "§bLingering Potion of Unlimited Night Vision",
+    "arrowName": "§bArrow of Unlimited Night Vision",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:UnlimitedNightVisionEffect"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

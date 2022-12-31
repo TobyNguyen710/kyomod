@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "kyomod:blocks/blightedwood_planks",
+    "particle": "kyomod:blocks/blightedwood_planks"
+  },
+  "render_type": "solid"
+}

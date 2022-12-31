@@ -1,0 +1,36 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "midori_gun",
+    "customModelName": "Normal",
+    "name": "§aFresh Inspiration 1",
+    "specialInfo": [
+      "Midori's gun"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BlueArchive"
+    },
+    "toolType": "Special",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 120,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Halo"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Fimm"
+    }
+  }
+}

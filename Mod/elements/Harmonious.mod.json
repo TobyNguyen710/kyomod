@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Harmonious",
+    "texture": "harmonious",
+    "description": "Harmonious",
+    "creativeTab": {
+      "value": "CUSTOM:EnderLilies"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:harmonious"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

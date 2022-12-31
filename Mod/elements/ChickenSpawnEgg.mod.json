@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SPAWN_EGG#93"
+    },
+    "name": "chicken_spawn_egg",
+    "namespace": "mod"
+  }
+}

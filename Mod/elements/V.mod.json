@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "Skills",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "VPressed"
+    }
+  }
+}

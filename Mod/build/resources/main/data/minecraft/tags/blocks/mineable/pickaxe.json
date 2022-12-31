@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "kyomod:halo_ore",
+    "kyomod:halo_block",
+    "kyomod:generator",
+    "kyomod:supreme_generator",
+    "kyomod:blighted_stone"
+  ]
+}

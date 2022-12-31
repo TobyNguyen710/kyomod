@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kyomod:halo_block"
+    }
+  ],
+  "result": {
+    "item": "kyomod:halo",
+    "count": 9
+  }
+}

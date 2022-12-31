@@ -1,0 +1,45 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:LandsEndBiome"
+      },
+      {
+        "value": "CUSTOM:TheAbyssBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:BlightedStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 2,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "§4Blighted Phantom",
+    "igniterTab": {
+      "value": "CUSTOM:EnderLilies"
+    },
+    "texture": "blighted_phantom2",
+    "portalTexture": "lands_end_portal_texture",
+    "enablePortal": true
+  }
+}

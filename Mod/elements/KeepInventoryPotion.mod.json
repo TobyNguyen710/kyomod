@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "§aPotion of Keep Inventory",
+    "splashName": "§aSplash Potion of Keep Inventory",
+    "lingeringName": "§aLingering Potion of Keep Inventory",
+    "arrowName": "§aArrow of Keep Inventory",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:KeepInventory"
+        },
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kyomod:blocks/blighted_stone",
+    "up": "kyomod:blocks/blighted_stone",
+    "north": "kyomod:blocks/blighted_stone",
+    "east": "kyomod:blocks/blighted_stone",
+    "south": "kyomod:blocks/blighted_stone",
+    "west": "kyomod:blocks/blighted_stone",
+    "particle": "kyomod:blocks/blighted_stone"
+  },
+  "render_type": "solid"
+}

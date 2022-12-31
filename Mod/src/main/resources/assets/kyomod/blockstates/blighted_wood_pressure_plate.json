@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "kyomod:block/blighted_wood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "kyomod:block/blighted_wood_pressure_plate_down"
+    }
+  }
+}
