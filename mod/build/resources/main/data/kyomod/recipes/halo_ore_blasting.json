@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "experience": 70,
-  "cookingtime": 100,
-  "ingredient": {
-    "item": "kyomod:halo_ore"
-  },
-  "result": "kyomod:halo"
-}

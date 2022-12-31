@@ -1,9 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "kyomod:blocks/blightedwood_planks",
-    "top": "kyomod:blocks/blightedwood_planks",
-    "side": "kyomod:blocks/blightedwood_planks"
-  },
-  "render_type": "solid"
-}

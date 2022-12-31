@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "kyomod:blocks/lily",
-    "particle": "kyomod:blocks/lily"
-  },
-  "render_type": "cutout"
-}

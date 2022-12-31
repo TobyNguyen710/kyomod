@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kyomod:blocks/halo_gem_ore",
-    "particle": "kyomod:blocks/halo_gem_ore"
-  },
-  "render_type": "solid"
-}

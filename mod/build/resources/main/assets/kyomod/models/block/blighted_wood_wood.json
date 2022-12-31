@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kyomod:blocks/blighted_log_side",
-    "particle": "kyomod:blocks/blighted_log_side"
-  },
-  "render_type": "solid"
-}

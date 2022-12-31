@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "kyomod:blocks/blightedwood_planks",
-    "particle": "kyomod:blocks/blightedwood_planks"
-  },
-  "render_type": "solid"
-}

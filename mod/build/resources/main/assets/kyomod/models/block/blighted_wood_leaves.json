@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kyomod:blocks/blightedwood_leaves",
-    "particle": "kyomod:blocks/blightedwood_leaves"
-  }
-}
