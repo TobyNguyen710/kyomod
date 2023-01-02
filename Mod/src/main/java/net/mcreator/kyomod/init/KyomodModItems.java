@@ -87,6 +87,8 @@ public class KyomodModItems {
 			KyomodModTabs.TAB_ENDER_LILIES);
 	public static final RegistryObject<Item> BLIGHTED_WOOD_BUTTON = block(KyomodModBlocks.BLIGHTED_WOOD_BUTTON, KyomodModTabs.TAB_ENDER_LILIES);
 	public static final RegistryObject<Item> BULLET_1 = REGISTRY.register("bullet_1", () -> new Bullet1Item());
+	public static final RegistryObject<Item> HIFUMI = REGISTRY.register("hifumi_spawn_egg",
+			() -> new ForgeSpawnEggItem(KyomodModEntities.HIFUMI, -103, -1, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,1719 @@
+{
+  "mod_elements": [
+    {
+      "name": "Halo",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_ore",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_block",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_ore_block_recipe",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_block_ore_recipe",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloOreSmelting",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_ore_smelting",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloOreBlasting",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_ore_blasting",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "BlueArchive",
+      "type": "tab",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_archive",
+      "path": "~/Blue Archive"
+    },
+    {
+      "name": "HallowPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_pickaxe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_axe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_sword",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_shovel",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_hoe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_pickaxe_recipe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowAxeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_axe_recipe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowSwordRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_sword_recipe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowShovelRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_shovel_recipe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_hoe_recipe",
+      "path": "~/Blue Archive/Halo Tools"
+    },
+    {
+      "name": "HallowArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Blue Archive/Halo Armor"
+    },
+    {
+      "name": "HallowArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_armor_helmet_recipe",
+      "path": "~/Blue Archive/Halo Armor"
+    },
+    {
+      "name": "HallowArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_armor_body_recipe",
+      "path": "~/Blue Archive/Halo Armor"
+    },
+    {
+      "name": "HallowArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_armor_leggings_recipe",
+      "path": "~/Blue Archive/Halo Armor"
+    },
+    {
+      "name": "HallowArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hallow_armor_boots_recipe",
+      "path": "~/Blue Archive/Halo Armor"
+    },
+    {
+      "name": "Theme140",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theme_140",
+      "path": "~/Blue Archive"
+    },
+    {
+      "name": "HaloOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "FreshInspirationRangedItemUsed",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_inspiration_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "Bullet1",
+      "type": "rangeditem",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_1",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "FreshInpiration2",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_inpiration_2",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "TestShoot",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_shoot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "ExplodeWhenHit",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode_when_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "FreshInpiration",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_inpiration",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "Guns",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guns",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "Fimm",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fimm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "Test",
+      "type": "enchantment",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "V",
+      "type": "keybind",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "HaloNugget",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_nugget",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloNuggetSmithing",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_nugget_smithing",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloNuggetFromHaloGem",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_nugget_from_halo_gem",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloGemFromHaloNugget",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_gem_from_halo_nugget",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "VPressed",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "VillagerSpawnEgg",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "WeaponTrade",
+      "type": "villagertrade",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_trade",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "EnderLilies",
+      "type": "tab",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_lilies",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "UnlimitedNightVisionRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlimited_night_vision_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "UnlimitedNightVisionEffect",
+      "type": "potioneffect",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlimited_night_vision_effect",
+      "path": "~/MISC"
+    },
+    {
+      "name": "UnlimitedNightVisionEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlimited_night_vision_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "UnlimitedNightVision",
+      "type": "potion",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlimited_night_vision",
+      "path": "~/MISC"
+    },
+    {
+      "name": "HeroOfTheVillage",
+      "type": "potioneffect",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_of_the_village",
+      "path": "~/MISC"
+    },
+    {
+      "name": "HeroOfTheVillageEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_of_the_village_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "HeroOfTheVillagePotion",
+      "type": "potion",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_of_the_village_potion",
+      "path": "~/MISC"
+    },
+    {
+      "name": "HeroOfTheVillagePotionRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_of_the_village_potion_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "TotemOfUndyingRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "KeepInventory",
+      "type": "potioneffect",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inventory",
+      "path": "~/MISC"
+    },
+    {
+      "name": "KeepInventoryPotion",
+      "type": "potion",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inventory_potion",
+      "path": "~/MISC"
+    },
+    {
+      "name": "KeepInventoryEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inventory_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "KeepInventoryPotionRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keep_inventory_potion_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "GeneratorGUI",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator_gui",
+      "path": "~/MISC"
+    },
+    {
+      "name": "GeneratorProcedure",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "HaloCore",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_core",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "HaloCoreRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_core_recipe",
+      "path": "~/Blue Archive/Halo Blocks"
+    },
+    {
+      "name": "Generator",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator",
+      "path": "~/MISC"
+    },
+    {
+      "name": "GeneratorRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "EnchantedGoldenAppleRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_apple_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "BulletRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_recipe",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "VillagerSpawnEgg2",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_spawn_egg_2",
+      "path": "~/MISC"
+    },
+    {
+      "name": "ZombieVillagerSpawnEgg",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_villager_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "EtOmniaVanitas",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_omnia_vanitas",
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "EtOmniaVanitasRangeItemUsed",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "et_omnia_vanitas_range_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Archive/Guns"
+    },
+    {
+      "name": "Theme139",
+      "type": "musicdisc",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theme_139",
+      "path": "~/Blue Archive"
+    },
+    {
+      "name": "CowSpawnEgg",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SheepSpawnEgg",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheep_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "Reanimate",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reanimate"
+    },
+    {
+      "name": "EnderLiliesMusic",
+      "type": "musicdisc",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_lilies_music",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "Harmonious",
+      "type": "musicdisc",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harmonious",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "Bulbel",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulbel",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "EndermanSpawnEgg",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "CreeperSpawnEgg",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SkeletonSpawnEgg",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SpiderSpawnEgg",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SlimeSpawnEgg",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "BlazeSpawnEgg",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "GhastSpawnEgg",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghast_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "WitherSkeletonSpawnEgg",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skeleton_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "RabbitSpawnEgg",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "ShulkerSpawnEgg",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "XP",
+      "type": "potioneffect",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp",
+      "path": "~/MISC"
+    },
+    {
+      "name": "XPEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "XPPotion",
+      "type": "potion",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_potion",
+      "path": "~/MISC"
+    },
+    {
+      "name": "XPPotionRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_potion_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SupremeGenerator",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supreme_generator",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SupremeGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supreme_generator_recipe",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SupremeGeneratorGUI",
+      "type": "gui",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supreme_generator_gui",
+      "path": "~/MISC"
+    },
+    {
+      "name": "ChickenSpawnEgg",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "CatSpawnEgg",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_spawn_egg",
+      "path": "~/MISC"
+    },
+    {
+      "name": "SupremeGeneratorProcedure",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supreme_generator_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MISC"
+    },
+    {
+      "name": "BlightedGolem",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_golem",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "LandsEndBiome",
+      "type": "biome",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lands_end_biome",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "LandsEndDimension",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lands_end_dimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "BlightedGrass",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_grass",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "BlightedDirt",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_dirt",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "TestBiome",
+      "type": "biome",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_biome",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "BlightedStone",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_stone",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "LiliesMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lilies_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "Lily",
+      "type": "plant",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lily",
+      "path": "~/Ender Lilies"
+    },
+    {
+      "name": "MinecraftDirt",
+      "type": "tag",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_dirt"
+    },
+    {
+      "name": "BlightedWoodWood",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_wood",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodLog",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_log",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodPlanks",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_planks",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodLeaves",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_leaves",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodStairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_stairs",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodSlab",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_slab",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodFence",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_fence",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodFenceGate",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_fence_gate",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodPressurePlate",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_pressure_plate",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodButton",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_button",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodItemsTag",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_items_tag",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_wood_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_planks_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_stairs_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_slab_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_fence_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_fence_gate_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_pressure_plate_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_button_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "BlightedWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_wood_stick_recipe",
+      "path": "~/Ender Lilies/Blighted Wood"
+    },
+    {
+      "name": "MinecraftLeaves",
+      "type": "tag",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_leaves"
+    },
+    {
+      "name": "MinecraftLogs",
+      "type": "tag",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_logs"
+    },
+    {
+      "name": "TheAbyssBiome",
+      "type": "biome",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_abyss_biome",
+      "path": "~/Ender Lilies"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "midoriAbility",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "azusaAbility",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "theme140",
+      "files": [
+        "theme-140"
+      ],
+      "category": "music",
+      "subtitle": "Theme 140 playing"
+    },
+    {
+      "name": "gunshot",
+      "files": [
+        "gunshot-sound-effect-single-shot-audiotrimmer.com"
+      ],
+      "category": "master",
+      "subtitle": "Gun shots"
+    },
+    {
+      "name": "midori_shoot",
+      "files": [
+        "midori_se"
+      ],
+      "category": "master",
+      "subtitle": "Midori Shoot"
+    },
+    {
+      "name": "modori_skill_2",
+      "files": [
+        "midori_battle_tsa_2"
+      ],
+      "category": "master",
+      "subtitle": "Midori uses skill"
+    },
+    {
+      "name": "modori_skill_1",
+      "files": [
+        "midori_battle_tsa_1"
+      ],
+      "category": "master",
+      "subtitle": "Midori uses skill"
+    },
+    {
+      "name": "azusa_shoot",
+      "files": [
+        "azusa_se"
+      ],
+      "category": "master",
+      "subtitle": "Azusa Shoot"
+    },
+    {
+      "name": "azusa_skill",
+      "files": [
+        "azusa_exskill_2"
+      ],
+      "category": "master",
+      "subtitle": "Azusa uses skill"
+    },
+    {
+      "name": "theme139",
+      "files": [
+        "theme_139"
+      ],
+      "category": "music",
+      "subtitle": "Theme 139 playing"
+    },
+    {
+      "name": "reanimate",
+      "files": [
+        "reanimate"
+      ],
+      "category": "music",
+      "subtitle": "§4REANIMATION!"
+    },
+    {
+      "name": "bulbel",
+      "files": [
+        "bulbel"
+      ],
+      "category": "music",
+      "subtitle": "Bulbel"
+    },
+    {
+      "name": "ender_lilies",
+      "files": [
+        "ender_lilies"
+      ],
+      "category": "music",
+      "subtitle": "ENDER LILIES"
+    },
+    {
+      "name": "harmonious",
+      "files": [
+        "harmonious"
+      ],
+      "category": "music",
+      "subtitle": "Harmonious"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.bluearchive.halo_ore": "Halo Ore",
+      "item.kyomod.halo_core": "§dHalo Core",
+      "item.kyomod.ender_lilies_music": "Ender Lilies Music",
+      "subtitles.modori_skill_2": "Midori uses skill",
+      "itemGroup.tabblue_archive": "Blue Archive",
+      "item.bluearchive.bullet": "§cBullet",
+      "subtitles.modori_skill_1": "Midori uses skill",
+      "block.kyomod.blighted_wood_planks": "Blighted Wood Planks",
+      "item.bluearchive.theme_140.desc": "ARIS!!!!!",
+      "item.minecraft.splash_potion.effect.keep_inventory_potion": "§aSplash Potion of Keep Inventory",
+      "subtitles.midori_skill_1": "Midori uses skill",
+      "key.kyomod.v": "Skills",
+      "item.bluearchive.halo_nugget": "Halo Nugget",
+      "item.bluearchive.hallow_armor_chestplate": "Hallow Chestplate",
+      "subtitles.midori_skill_2": "Midori uses skill",
+      "item.kyomod.theme_139.desc": "MERRY CHRISTMAS!",
+      "item.kyomod.hallow_armor_boots": "Hallow Boots",
+      "item.minecraft.potion.effect.hero_of_the_village_potion": "§ePotion of Hero Of The Village",
+      "item.minecraft.tipped_arrow.effect.xp_potion": "Arrow of XP",
+      "subtitles.reanimate": "§4REANIMATION!",
+      "item.bluearchive.fresh_inpiration_2": "§aFresh Inspiration 1",
+      "item.kyomod.halo_nugget": "Halo Nugget",
+      "block.kyomod.lily": "§cLily",
+      "item.kyomod.hallow_shovel": "Hallow Shovel",
+      "item.bluearchive.fresh_inpiration": "§aFresh Inpiration",
+      "effect.kyomod.keep_inventory": "Keep Inventory",
+      "item.minecraft.lingering_potion.effect.hero_of_the_village_potion": "§eLingering Potion of Hero Of The Village",
+      "block.kyomod.blighted_wood_slab": "BlightedWood Slab",
+      "item.kyomod.bulbel.desc": "Bulbel",
+      "item.minecraft.tipped_arrow.effect.hero_of_the_village_potion": "§eArrow of Hero Of The Village",
+      "item.kyomod.theme_140.desc": "ARIS!!!!!",
+      "subtitles.testsound": "",
+      "block.bluearchive.halo_block": "Block of Halo",
+      "item.bluearchive.hallow_axe": "Hallow Axe",
+      "item.minecraft.lingering_potion.effect.unlimited_night_vision": "§bLingering Potion of Unlimited Night Vision",
+      "entity.kyomod.blighted_golem": "Blighted Golem",
+      "block.kyomod.blighted_wood_pressure_plate": "BlightedWood Pressure Plate",
+      "subtitles.gunshot": "Gun shots",
+      "item.kyomod.theme_140": "Theme 140",
+      "item.kyomod.hallow_armor_helmet": "Hallow Helmet",
+      "item.minecraft.potion.effect.unlimited_night_vision": "§bPotion of Unlimited Night Vision",
+      "item.bluearchive.bullet_1": "Bullet 1",
+      "item.bluearchive.skeletest_spawn_egg": "Skeletest Spawn Egg",
+      "item.minecraft.splash_potion.effect.xp_potion": "Splash Potion of XP",
+      "subtitles.theme140": "Theme 140 playing",
+      "item.kyomod.theme_139": "Theme 139",
+      "block.kyomod.halo_ore": "Halo Ore",
+      "item.kyomod.bulbel": "Bulbel",
+      "block.kyomod.blighted_dirt": "Blighted Dirt",
+      "subtitles.theme139": "Theme 139 playing",
+      "item.kyomod.hallow_pickaxe": "Hallow Pickaxe",
+      "item.bluearchive.hallow_shovel": "Hallow Shovel",
+      "item.bluearchive.hallow_pickaxe": "Hallow Pickaxe",
+      "item.bluearchive.theme_140": "Theme 140",
+      "block.kyomod.blighted_grass": "Blighted Grass",
+      "key.bluearchive.v": "V",
+      "effect.kyomod.hero_of_the_village": "Hero",
+      "item.kyomod.halo": "Halo Gem",
+      "item.kyomod.blighted_golem_spawn_egg": "Blighted Golem Spawn Egg",
+      "subtitles.harmonious": "Harmonious",
+      "subtitles.bulbel": "Bulbel",
+      "block.kyomod.generator": "Generator",
+      "biome.kyomod.test_biome": "Test Biome",
+      "block.kyomod.blighted_wood_leaves": "Blighted Leaves",
+      "block.kyomod.blighted_wood_wood": "Blighted Wood",
+      "item.bluearchive.hallow_armor_helmet": "Hallow Helmet",
+      "biome.kyomod.lands_end_biome": "Land\u0027s End",
+      "item.kyomod.hallow_axe": "Hallow Axe",
+      "item.kyomod.hallow_sword": "§dThousand Souls",
+      "item.kyomod.fresh_inpiration_2": "§aFresh Inspiration 1",
+      "item.minecraft.lingering_potion.effect.keep_inventory_potion": "§aLingering Potion of Keep Inventory",
+      "subtitles.azusa_shoot": "Azusa Shoot",
+      "item.kyomod.ender_lilies_music.desc": "ENDER LILIES",
+      "item.minecraft.potion.effect.xp_potion": "Potion of XP",
+      "item.kyomod.harmonious": "Harmonious",
+      "item.minecraft.lingering_potion.effect.xp_potion": "Lingering Potion of XP",
+      "subtitles.midori_shoot": "Midori Shoot",
+      "item.kyomod.hallow_hoe": "Hallow Hoe",
+      "item.kyomod.bullet_1": "Bullet 1",
+      "itemGroup.tabender_lilies": "Ender Lilies",
+      "item.kyomod.harmonious.desc": "Harmonious",
+      "item.minecraft.tipped_arrow.effect.unlimited_night_vision": "§bArrow of Unlimited Night Vision",
+      "item.kyomod.lands_end_dimension": "§4Blighted Phantom",
+      "block.kyomod.blighted_wood_fence_gate": "Blighted Wood Fence Gate",
+      "biome.kyomod.the_abyss_biome": "Land\u0027s End",
+      "item.kyomod.et_omnia_vanitas": "§dEt Omnia Vanitas",
+      "block.kyomod.supreme_generator": "§cSupreme Generator",
+      "item.bluearchive.hallow_armor_boots": "Hallow Boots",
+      "effect.kyomod.unlimited_night_vision_effect": "Night Vision",
+      "item.minecraft.splash_potion.effect.unlimited_night_vision": "§bSplash Potion of Unlimited Night Vision",
+      "item.minecraft.potion.effect.keep_inventory_potion": "§aPotion of Keep Inventory",
+      "enchantment.bluearchive.test": "Test",
+      "item.kyomod.fresh_inpiration": "§aFresh Inpiration",
+      "item.kyomod.reanimate.desc": "This is going to be a terrible night...",
+      "block.kyomod.blighted_wood_log": "Blighted Log",
+      "subtitles.ender_lilies": "ENDER LILIES",
+      "block.kyomod.halo_block": "Block of Halo",
+      "item.kyomod.hallow_armor_chestplate": "Hallow Chestplate",
+      "item.bluearchive.hallow_armor_leggings": "Hallow Leggings",
+      "block.kyomod.blighted_wood_button": "Blighted Wood Button",
+      "item.kyomod.hallow_armor_leggings": "Hallow Leggings",
+      "block.kyomod.blighted_stone": "Blighted Stone",
+      "block.kyomod.blighted_wood_fence": "Blighted Wood Fence",
+      "entity.bluearchive.skeletest": "Skeletest",
+      "item.minecraft.tipped_arrow.effect.keep_inventory_potion": "§aArrow of Keep Inventory",
+      "block.kyomod.blighted_wood_stairs": "BlightedWood Stairs",
+      "item.kyomod.reanimate": "Reanimate",
+      "item.bluearchive.hallow_sword": "§dThousand Souls",
+      "item.minecraft.splash_potion.effect.hero_of_the_village_potion": "§eSplash Potion of Hero Of The Village",
+      "item.bluearchive.hallow_hoe": "Hallow Hoe",
+      "enchantment.kyomod.test": "Test",
+      "item.bluearchive.halo": "Halo Gem",
+      "subtitles.azusa_skill": "Azusa uses skill",
+      "item.kyomod.bullet": "§cBullet",
+      "effect.kyomod.xp": "XP"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blue Archive",
+        "children": [
+          {
+            "name": "Guns",
+            "children": []
+          },
+          {
+            "name": "Halo Armor",
+            "children": []
+          },
+          {
+            "name": "Halo Blocks",
+            "children": []
+          },
+          {
+            "name": "Halo Tools",
+            "children": []
+          },
+          {
+            "name": "Students",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ender Lilies",
+        "children": [
+          {
+            "name": "Blighted Wood",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "MISC",
+        "children": []
+      },
+      {
+        "name": "L4D2",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "kyomod",
+    "modName": "Kyo\u0027s Weapons and Utility Mod",
+    "version": "1.2.0",
+    "author": "Kyo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kyomod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

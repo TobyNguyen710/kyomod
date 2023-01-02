@@ -118,5 +118,25 @@
         "stream": true
       }
     ]
+  },
+  "hifumi_greetings_full": {
+    "category": "ambient",
+    "subtitle": "subtitles.hifumi_greetings_full",
+    "sounds": [
+      {
+        "name": "kyomod:hifumi_login_1",
+        "stream": false
+      }
+    ]
+  },
+  "hifumi_sensei": {
+    "category": "ambient",
+    "subtitle": "subtitles.hifumi_sensei",
+    "sounds": [
+      {
+        "name": "kyomod:hifumi_login_1_cut",
+        "stream": false
+      }
+    ]
   }
 }

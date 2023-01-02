@@ -39,4 +39,8 @@ public class KyomodModSounds {
 			() -> new SoundEvent(new ResourceLocation("kyomod", "ender_lilies")));
 	public static final RegistryObject<SoundEvent> HARMONIOUS = REGISTRY.register("harmonious",
 			() -> new SoundEvent(new ResourceLocation("kyomod", "harmonious")));
+	public static final RegistryObject<SoundEvent> HIFUMI_GREETINGS_FULL = REGISTRY.register("hifumi_greetings_full",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "hifumi_greetings_full")));
+	public static final RegistryObject<SoundEvent> HIFUMI_SENSEI = REGISTRY.register("hifumi_sensei",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "hifumi_sensei")));
 }

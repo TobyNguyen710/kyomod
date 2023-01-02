@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.kyomod.client.renderer.HifumiRenderer;
 import net.mcreator.kyomod.client.renderer.BlightedGolemRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,5 +20,6 @@ public class KyomodModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(KyomodModEntities.BLIGHTED_GOLEM.get(), BlightedGolemRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.BULLET_1.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(KyomodModEntities.HIFUMI.get(), HifumiRenderer::new);
 	}
 }
