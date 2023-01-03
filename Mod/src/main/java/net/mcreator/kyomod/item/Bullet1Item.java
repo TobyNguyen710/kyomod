@@ -43,7 +43,7 @@ public class Bullet1Item extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				Bullet1Entity entityarrow = Bullet1Entity.shoot(world, entity, world.getRandom(), 1f, 5, 1);
+				Bullet1Entity entityarrow = Bullet1Entity.shoot(world, entity, world.getRandom(), 15f, 0.5, 1);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

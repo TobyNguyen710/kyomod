@@ -21,5 +21,6 @@ public class KyomodModEntityRenderers {
 		event.registerEntityRenderer(KyomodModEntities.BLIGHTED_GOLEM.get(), BlightedGolemRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.BULLET_1.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.HIFUMI.get(), HifumiRenderer::new);
+		event.registerEntityRenderer(KyomodModEntities.HIFUMI_BULLET.get(), ThrownItemRenderer::new);
 	}
 }

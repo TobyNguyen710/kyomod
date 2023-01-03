@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.kyomod.entity.HifumiEntity;
+import net.mcreator.kyomod.entity.HifumiBulletEntity;
 import net.mcreator.kyomod.entity.Bullet1Entity;
 import net.mcreator.kyomod.entity.BlightedGolemEntity;
 import net.mcreator.kyomod.KyomodMod;
@@ -31,10 +32,13 @@ public class KyomodModEntities {
 			EntityType.Builder.<Bullet1Entity>of(Bullet1Entity::new, MobCategory.MISC).setCustomClientFactory(Bullet1Entity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<HifumiEntity>> HIFUMI = register("hifumi",
-			EntityType.Builder.<HifumiEntity>of(HifumiEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			EntityType.Builder.<HifumiEntity>of(HifumiEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(HifumiEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HifumiBulletEntity>> HIFUMI_BULLET = register("projectile_hifumi_bullet",
+			EntityType.Builder.<HifumiBulletEntity>of(HifumiBulletEntity::new, MobCategory.MISC).setCustomClientFactory(HifumiBulletEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

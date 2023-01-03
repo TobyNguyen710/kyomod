@@ -8,6 +8,6 @@ public class XPEffectStartedappliedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player)
-			_player.giveExperiencePoints(500);
+			_player.giveExperiencePoints(650);
 	}
 }
