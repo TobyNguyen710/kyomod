@@ -19,6 +19,7 @@ import net.mcreator.kyomod.item.Theme139Item;
 import net.mcreator.kyomod.item.ReanimateItem;
 import net.mcreator.kyomod.item.LandsEndDimensionItem;
 import net.mcreator.kyomod.item.HifumiBulletItem;
+import net.mcreator.kyomod.item.HifumiBagItem;
 import net.mcreator.kyomod.item.HarmoniousItem;
 import net.mcreator.kyomod.item.HaloNuggetItem;
 import net.mcreator.kyomod.item.HaloItem;
@@ -91,6 +92,7 @@ public class KyomodModItems {
 	public static final RegistryObject<Item> HIFUMI = REGISTRY.register("hifumi_spawn_egg",
 			() -> new ForgeSpawnEggItem(KyomodModEntities.HIFUMI, -103, -1, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
 	public static final RegistryObject<Item> HIFUMI_BULLET = REGISTRY.register("hifumi_bullet", () -> new HifumiBulletItem());
+	public static final RegistryObject<Item> HIFUMI_BAG = REGISTRY.register("hifumi_bag", () -> new HifumiBagItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

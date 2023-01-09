@@ -37,7 +37,6 @@ import net.mcreator.kyomod.init.KyomodModMenus;
 import net.mcreator.kyomod.init.KyomodModItems;
 import net.mcreator.kyomod.init.KyomodModFeatures;
 import net.mcreator.kyomod.init.KyomodModEntities;
-import net.mcreator.kyomod.init.KyomodModEnchantments;
 import net.mcreator.kyomod.init.KyomodModBlocks;
 import net.mcreator.kyomod.init.KyomodModBlockEntities;
 import net.mcreator.kyomod.init.KyomodModBiomes;
@@ -67,7 +66,6 @@ public class KyomodMod {
 
 		KyomodModMobEffects.REGISTRY.register(bus);
 		KyomodModPotions.REGISTRY.register(bus);
-		KyomodModEnchantments.REGISTRY.register(bus);
 
 		KyomodModMenus.REGISTRY.register(bus);
 		KyomodModBiomes.REGISTRY.register(bus);

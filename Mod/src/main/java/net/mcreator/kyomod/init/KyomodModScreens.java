@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.kyomod.client.gui.SupremeGeneratorGUIScreen;
+import net.mcreator.kyomod.client.gui.HifumiBagGUIScreen;
 import net.mcreator.kyomod.client.gui.GeneratorGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -21,6 +22,7 @@ public class KyomodModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(KyomodModMenus.GENERATOR_GUI.get(), GeneratorGUIScreen::new);
 			MenuScreens.register(KyomodModMenus.SUPREME_GENERATOR_GUI.get(), SupremeGeneratorGUIScreen::new);
+			MenuScreens.register(KyomodModMenus.HIFUMI_BAG_GUI.get(), HifumiBagGUIScreen::new);
 		});
 	}
 }

@@ -27,6 +27,7 @@ import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FollowOwnerGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.TamableAnimal;
@@ -35,6 +36,7 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
@@ -59,6 +61,7 @@ public class HifumiEntity extends TamableAnimal implements RangedAttackMob {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(KyomodModItems.HIFUMI_BAG.get()));
 	}
 
 	@Override
@@ -73,19 +76,20 @@ public class HifumiEntity extends TamableAnimal implements RangedAttackMob {
 		this.goalSelector.addGoal(2, new RandomSwimmingGoal(this, 1, 40));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
-		this.goalSelector.addGoal(5, new FollowOwnerGoal(this, 1, (float) 10, (float) 15, false));
+		this.goalSelector.addGoal(5, new FollowOwnerGoal(this, 1, (float) 5, (float) 15, false));
 		this.targetSelector.addGoal(6, new OwnerHurtTargetGoal(this));
 		this.goalSelector.addGoal(7, new OwnerHurtByTargetGoal(this));
-		this.goalSelector.addGoal(8, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(8, new BreedGoal(this, 1));
+		this.goalSelector.addGoal(9, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return (double) (4.0 + entity.getBbWidth() * entity.getBbWidth());
 			}
 		});
-		this.goalSelector.addGoal(9, new TemptGoal(this, 1, Ingredient.of(KyomodModItems.HALO.get()), false));
-		this.goalSelector.addGoal(10, new OpenDoorGoal(this, true));
-		this.goalSelector.addGoal(11, new OpenDoorGoal(this, false));
-		this.goalSelector.addGoal(12, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(10, new TemptGoal(this, 1, Ingredient.of(KyomodModItems.HALO.get()), false));
+		this.goalSelector.addGoal(11, new OpenDoorGoal(this, true));
+		this.goalSelector.addGoal(12, new OpenDoorGoal(this, false));
+		this.goalSelector.addGoal(13, new MoveBackToVillageGoal(this, 0.6, false));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 			@Override
 			public boolean canContinueToUse() {
@@ -101,7 +105,7 @@ public class HifumiEntity extends TamableAnimal implements RangedAttackMob {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(KyomodModItems.HALO.get()));
+		this.spawnAtLocation(new ItemStack(KyomodModItems.HIFUMI_BAG.get()));
 	}
 
 	@Override
@@ -122,6 +126,8 @@ public class HifumiEntity extends TamableAnimal implements RangedAttackMob {
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
 		if (source.getDirectEntity() instanceof AbstractArrow)
+			return false;
+		if (source == DamageSource.FALL)
 			return false;
 		if (source.isExplosion())
 			return false;

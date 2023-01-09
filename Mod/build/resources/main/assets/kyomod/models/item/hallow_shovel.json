@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "kyomod:items/hallow_shovel"
+    "layer0": "kyomod:items/halo_shovel"
   }
 }

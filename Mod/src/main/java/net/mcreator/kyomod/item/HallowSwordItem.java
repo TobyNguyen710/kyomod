@@ -1,9 +1,6 @@
 
 package net.mcreator.kyomod.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
@@ -30,7 +27,7 @@ public class HallowSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 18f;
+				return 13f;
 			}
 
 			public int getLevel() {
@@ -51,11 +48,5 @@ public class HallowSwordItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("The sword forged by thousand people"));
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }

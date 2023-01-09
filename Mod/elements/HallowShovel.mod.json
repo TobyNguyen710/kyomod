@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hallow_shovel",
+    "texture": "halo_shovel",
     "customModelName": "Normal",
     "name": "Hallow Shovel",
     "specialInfo": [],

@@ -12,6 +12,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.kyomod.world.inventory.SupremeGeneratorGUIMenu;
+import net.mcreator.kyomod.world.inventory.HifumiBagGUIMenu;
 import net.mcreator.kyomod.world.inventory.GeneratorGUIMenu;
 import net.mcreator.kyomod.KyomodMod;
 
@@ -21,4 +22,6 @@ public class KyomodModMenus {
 			() -> IForgeMenuType.create(GeneratorGUIMenu::new));
 	public static final RegistryObject<MenuType<SupremeGeneratorGUIMenu>> SUPREME_GENERATOR_GUI = REGISTRY.register("supreme_generator_gui",
 			() -> IForgeMenuType.create(SupremeGeneratorGUIMenu::new));
+	public static final RegistryObject<MenuType<HifumiBagGUIMenu>> HIFUMI_BAG_GUI = REGISTRY.register("hifumi_bag_gui",
+			() -> IForgeMenuType.create(HifumiBagGUIMenu::new));
 }

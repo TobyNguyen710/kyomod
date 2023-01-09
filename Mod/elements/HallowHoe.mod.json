@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hallow_hoe",
+    "texture": "halo_hoe",
     "customModelName": "Normal",
     "name": "Hallow Hoe",
     "specialInfo": [],

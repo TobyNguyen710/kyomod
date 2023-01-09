@@ -33,9 +33,7 @@ public class KyomodModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<HifumiEntity>> HIFUMI = register("hifumi",
 			EntityType.Builder.<HifumiEntity>of(HifumiEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(HifumiEntity::new)
-
-					.sized(0.6f, 1.8f));
+					.setUpdateInterval(3).setCustomClientFactory(HifumiEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HifumiBulletEntity>> HIFUMI_BULLET = register("projectile_hifumi_bullet",
 			EntityType.Builder.<HifumiBulletEntity>of(HifumiBulletEntity::new, MobCategory.MISC).setCustomClientFactory(HifumiBulletEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
