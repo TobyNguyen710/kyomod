@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.kyomod.block.SupremeGeneratorBlock;
+import net.mcreator.kyomod.block.MikaBlockBlock;
 import net.mcreator.kyomod.block.LilyBlock;
 import net.mcreator.kyomod.block.LandsEndDimensionPortalBlock;
 import net.mcreator.kyomod.block.HaloOreBlock;
@@ -55,4 +56,5 @@ public class KyomodModBlocks {
 	public static final RegistryObject<Block> BLIGHTED_WOOD_PRESSURE_PLATE = REGISTRY.register("blighted_wood_pressure_plate",
 			() -> new BlightedWoodPressurePlateBlock());
 	public static final RegistryObject<Block> BLIGHTED_WOOD_BUTTON = REGISTRY.register("blighted_wood_button", () -> new BlightedWoodButtonBlock());
+	public static final RegistryObject<Block> MIKA_BLOCK = REGISTRY.register("mika_block", () -> new MikaBlockBlock());
 }

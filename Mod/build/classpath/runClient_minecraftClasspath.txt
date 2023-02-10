@@ -1,4 +1,4 @@
-C:\Games\MCreatorMods\BlueArchive\build\fg_cache\net\minecraftforge\forge\1.19.2-43.1.7_mapped_official_1.19.2\forge-1.19.2-43.1.7_mapped_official_1.19.2.jar
+C:\Games\MCreatorMods\kyomod\Mod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.1.7_mapped_official_1.19.2\forge-1.19.2-43.1.7_mapped_official_1.19.2.jar
 C:\Users\toby0\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
 C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.7\3535e9c3e5218abcecea1496a5c3a5c3207096d8\javafmllanguage-1.19.2-43.1.7.jar
 C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.7\a34960c25b16742b648accc1f198dde78abb666a\lowcodelanguage-1.19.2-43.1.7.jar

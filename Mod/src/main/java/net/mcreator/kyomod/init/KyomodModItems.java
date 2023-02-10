@@ -93,6 +93,9 @@ public class KyomodModItems {
 			() -> new ForgeSpawnEggItem(KyomodModEntities.HIFUMI, -103, -1, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
 	public static final RegistryObject<Item> HIFUMI_BULLET = REGISTRY.register("hifumi_bullet", () -> new HifumiBulletItem());
 	public static final RegistryObject<Item> HIFUMI_BAG = REGISTRY.register("hifumi_bag", () -> new HifumiBagItem());
+	public static final RegistryObject<Item> PEROROZILLA = REGISTRY.register("perorozilla_spawn_egg",
+			() -> new ForgeSpawnEggItem(KyomodModEntities.PEROROZILLA, -1, -13210, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
+	public static final RegistryObject<Item> MIKA_BLOCK = block(KyomodModBlocks.MIKA_BLOCK, KyomodModTabs.TAB_BLUE_ARCHIVE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,44 +1,278 @@
-[24Dec2022 02:33:13.888] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\toby0\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[24Dec2022 02:33:13.900] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[24Dec2022 02:33:14.023] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/toby0/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[24Dec2022 02:33:14.344] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.7\3535e9c3e5218abcecea1496a5c3a5c3207096d8\javafmllanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[24Dec2022 02:33:14.348] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.7\a34960c25b16742b648accc1f198dde78abb666a\lowcodelanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[24Dec2022 02:33:14.353] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.7\f1f25884b81fb6dc87bed375e43323e690af297c\mclanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[24Dec2022 02:33:14.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.7\d19281d83514be3dbec3d6d1f1f82a486ce85a4e\fmlcore-1.19.2-43.1.7.jar is missing mods.toml file
-[24Dec2022 02:33:14.424] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[24Dec2022 02:33:15.611] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\toby0\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[24Dec2022 02:33:19.445] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[24Dec2022 02:33:20.704] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Games/MCreatorMods/BlueArchive/build/fg_cache/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[24Dec2022 02:33:20.704] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Games/MCreatorMods/BlueArchive/build/fg_cache/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[24Dec2022 02:33:20.726] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24Dec2022 02:33:20.730] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[24Dec2022 02:33:20.809] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[24Dec2022 02:33:21.222] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.7, for MC 1.19.2 with MCP 20220805.130853
-[24Dec2022 02:33:21.223] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.7 Initialized
-[24Dec2022 02:33:22.022] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[24Dec2022 02:33:22.362] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[24Dec2022 02:33:22.383] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[24Dec2022 02:33:22.739] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24Dec2022 02:33:23.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.7 Target: 43.2.0
-[24Dec2022 02:33:24.582] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[24Dec2022 02:33:24.603] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Shutdown failure!
-java.util.ConcurrentModificationException: null
-	at java.util.HashMap.forEach(HashMap.java:1424) ~[?:?]
-	at net.minecraft.client.renderer.texture.TextureManager.close(TextureManager.java:176) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/:?]
-	at net.minecraft.client.Minecraft.close(Minecraft.java:1036) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/:?]
-	at net.minecraft.client.Minecraft.destroy(Minecraft.java:1010) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/:?]
-	at net.minecraft.client.main.Main.run(Main.java:228) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.1.7.jar%2395!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23108!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[15Jan2023 00:12:52.390] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\toby0\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[15Jan2023 00:12:52.399] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[15Jan2023 00:12:52.540] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/toby0/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[15Jan2023 00:12:52.819] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.7\3535e9c3e5218abcecea1496a5c3a5c3207096d8\javafmllanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[15Jan2023 00:12:52.822] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.7\a34960c25b16742b648accc1f198dde78abb666a\lowcodelanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[15Jan2023 00:12:52.826] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.7\f1f25884b81fb6dc87bed375e43323e690af297c\mclanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[15Jan2023 00:12:52.830] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\toby0\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.7\d19281d83514be3dbec3d6d1f1f82a486ce85a4e\fmlcore-1.19.2-43.1.7.jar is missing mods.toml file
+[15Jan2023 00:12:52.902] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[15Jan2023 00:12:54.056] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\toby0\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[15Jan2023 00:12:57.949] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[15Jan2023 00:12:59.307] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Games/MCreatorMods/kyomod/Mod/build/fg_cache/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[15Jan2023 00:12:59.307] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Games/MCreatorMods/kyomod/Mod/build/fg_cache/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[15Jan2023 00:12:59.335] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15Jan2023 00:12:59.339] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[15Jan2023 00:12:59.419] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[15Jan2023 00:12:59.830] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.7, for MC 1.19.2 with MCP 20220805.130853
+[15Jan2023 00:12:59.830] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.7 Initialized
+[15Jan2023 00:13:00.795] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[15Jan2023 00:13:01.105] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[15Jan2023 00:13:01.123] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[15Jan2023 00:13:01.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Jan2023 00:13:02.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.7 Target: 43.2.0
+[15Jan2023 00:13:05.076] [Worker-Main-6/WARN] [net.minecraft.client.renderer.texture.TextureAtlas/]: Texture kyomod:items/weapon_icon_10016_2 with size 607x607 limits mip level from 2 to 0
+[15Jan2023 00:13:06.440] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[15Jan2023 00:13:06.440] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15Jan2023 00:13:06.554] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[15Jan2023 00:13:06.554] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[15Jan2023 00:13:06.667] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[15Jan2023 00:13:06.696] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[15Jan2023 00:13:06.697] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[15Jan2023 00:13:06.698] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[15Jan2023 00:13:06.699] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[15Jan2023 00:13:06.699] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[15Jan2023 00:13:06.700] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15Jan2023 00:13:07.596] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15Jan2023 00:13:08.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15Jan2023 00:13:08.175] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15Jan2023 00:13:08.176] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15Jan2023 00:13:08.614] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[15Jan2023 00:13:16.655] [Render thread/ERROR] [net.minecraftforge.common.ForgeHooks/WP]: This world was saved with mod bluearchive which appears to be missing, things may not work well
+[15Jan2023 00:13:16.684] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	bluearchive:halo_block: 934
+	bluearchive:halo_ore: 933
+
+[15Jan2023 00:13:16.685] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	bluearchive:test: 39
+
+[15Jan2023 00:13:16.685] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	bluearchive:projectile_bullet_1: 118
+
+[15Jan2023 00:13:16.685] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	bluearchive:bullet: 1165
+	bluearchive:bullet_1: 1166
+	bluearchive:fresh_inpiration: 1168
+	bluearchive:fresh_inpiration_2: 1167
+	bluearchive:hallow_armor_boots: 1163
+	bluearchive:hallow_armor_chestplate: 1161
+	bluearchive:hallow_armor_helmet: 1160
+	bluearchive:hallow_armor_leggings: 1162
+	bluearchive:hallow_axe: 1156
+	bluearchive:hallow_hoe: 1159
+	bluearchive:hallow_pickaxe: 1155
+	bluearchive:hallow_shovel: 1158
+	bluearchive:hallow_sword: 1157
+	bluearchive:halo: 1152
+	bluearchive:halo_block: 1154
+	bluearchive:halo_nugget: 1169
+	bluearchive:halo_ore: 1153
+	bluearchive:theme_140: 1164
+
+[15Jan2023 00:13:16.685] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	bluearchive:gunshot: 1322
+	bluearchive:midori_shoot: 1323
+	bluearchive:theme140: 1321
+
+[15Jan2023 00:13:16.686] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 25 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[15Jan2023 00:13:16.686] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    bluearchive:gunshot
+    bluearchive:midori_shoot
+    bluearchive:theme140
+
+Missing minecraft:item:
+    bluearchive:bullet
+    bluearchive:bullet_1
+    bluearchive:fresh_inpiration
+    bluearchive:fresh_inpiration_2
+    bluearchive:hallow_armor_boots
+    bluearchive:hallow_armor_chestplate
+    bluearchive:hallow_armor_helmet
+    bluearchive:hallow_armor_leggings
+    bluearchive:hallow_axe
+    bluearchive:hallow_hoe
+    bluearchive:hallow_pickaxe
+    bluearchive:hallow_shovel
+    bluearchive:hallow_sword
+    bluearchive:halo
+    bluearchive:halo_block
+    bluearchive:halo_nugget
+    bluearchive:halo_ore
+    bluearchive:theme_140
+
+Missing minecraft:block:
+    bluearchive:halo_block
+    bluearchive:halo_ore
+
+Missing minecraft:enchantment:
+    bluearchive:test
+
+Missing minecraft:entity_type:
+    bluearchive:projectile_bullet_1
+
+
+[15Jan2023 00:13:16.686] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:halo_ore Expected: 933 Got: 935
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:halo_block Expected: 934 Got: 936
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:generator Expected: 935 Got: 937
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:supreme_generator Expected: 936 Got: 938
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:lands_end_dimension_portal Expected: 937 Got: 939
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_grass Expected: 938 Got: 940
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_dirt Expected: 939 Got: 941
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_stone Expected: 940 Got: 942
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:lily Expected: 941 Got: 943
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_wood Expected: 942 Got: 944
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_log Expected: 943 Got: 945
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_planks Expected: 944 Got: 946
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_leaves Expected: 945 Got: 947
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_stairs Expected: 946 Got: 948
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_slab Expected: 947 Got: 949
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_fence Expected: 948 Got: 950
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_fence_gate Expected: 949 Got: 951
+[15Jan2023 00:13:16.689] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_pressure_plate Expected: 950 Got: 952
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:blighted_wood_button Expected: 951 Got: 953
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: kyomod:mika_block Expected: 952 Got: 954
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:halo Expected: 1152 Got: 1170
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:halo_ore Expected: 1153 Got: 1171
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:halo_block Expected: 1154 Got: 1172
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:halo_core Expected: 1155 Got: 1173
+[15Jan2023 00:13:16.690] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:halo_nugget Expected: 1156 Got: 1174
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_pickaxe Expected: 1157 Got: 1175
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_axe Expected: 1158 Got: 1176
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_sword Expected: 1159 Got: 1177
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_shovel Expected: 1160 Got: 1178
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_hoe Expected: 1161 Got: 1179
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_armor_helmet Expected: 1162 Got: 1180
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_armor_chestplate Expected: 1163 Got: 1181
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_armor_leggings Expected: 1164 Got: 1182
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hallow_armor_boots Expected: 1165 Got: 1183
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:bullet Expected: 1166 Got: 1184
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:fresh_inpiration_2 Expected: 1167 Got: 1185
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:fresh_inpiration Expected: 1168 Got: 1186
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:et_omnia_vanitas Expected: 1169 Got: 1187
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:theme_140 Expected: 1170 Got: 1188
+[15Jan2023 00:13:16.691] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:theme_139 Expected: 1171 Got: 1189
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:reanimate Expected: 1172 Got: 1190
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:generator Expected: 1173 Got: 1191
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:supreme_generator Expected: 1174 Got: 1192
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:ender_lilies_music Expected: 1175 Got: 1193
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:harmonious Expected: 1176 Got: 1194
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:bulbel Expected: 1177 Got: 1195
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_golem_spawn_egg Expected: 1178 Got: 1196
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:lands_end_dimension Expected: 1179 Got: 1197
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_grass Expected: 1180 Got: 1198
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_dirt Expected: 1181 Got: 1199
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_stone Expected: 1182 Got: 1200
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:lily Expected: 1183 Got: 1201
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_wood Expected: 1184 Got: 1202
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_log Expected: 1185 Got: 1203
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_planks Expected: 1186 Got: 1204
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_leaves Expected: 1187 Got: 1205
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_stairs Expected: 1188 Got: 1206
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_slab Expected: 1189 Got: 1207
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_fence Expected: 1190 Got: 1208
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_fence_gate Expected: 1191 Got: 1209
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_pressure_plate Expected: 1192 Got: 1210
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:blighted_wood_button Expected: 1193 Got: 1211
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:bullet_1 Expected: 1194 Got: 1212
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hifumi_spawn_egg Expected: 1195 Got: 1213
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hifumi_bullet Expected: 1196 Got: 1214
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:hifumi_bag Expected: 1197 Got: 1215
+[15Jan2023 00:13:16.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:perorozilla_spawn_egg Expected: 1198 Got: 1216
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: kyomod:mika_block Expected: 1199 Got: 1217
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:theme140 Expected: 1321 Got: 1324
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:gunshot Expected: 1322 Got: 1325
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:midori_shoot Expected: 1323 Got: 1326
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:modori_skill_2 Expected: 1324 Got: 1327
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:modori_skill_1 Expected: 1325 Got: 1328
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:azusa_shoot Expected: 1326 Got: 1329
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:azusa_skill Expected: 1327 Got: 1330
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:theme139 Expected: 1328 Got: 1331
+[15Jan2023 00:13:16.694] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:reanimate Expected: 1329 Got: 1332
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:bulbel Expected: 1330 Got: 1333
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:ender_lilies Expected: 1331 Got: 1334
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:harmonious Expected: 1332 Got: 1335
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:hifumi_greetings_full Expected: 1333 Got: 1336
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:hifumi_sensei Expected: 1334 Got: 1337
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: kyomod:this_game Expected: 1335 Got: 1338
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: kyomod:blighted_golem Expected: 118 Got: 119
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: kyomod:projectile_bullet_1 Expected: 119 Got: 120
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: kyomod:hifumi Expected: 120 Got: 121
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: kyomod:projectile_hifumi_bullet Expected: 121 Got: 122
+[15Jan2023 00:13:16.695] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: kyomod:perorozilla Expected: 122 Got: 123
+[15Jan2023 00:13:17.052] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:bluearchive
+[15Jan2023 00:13:18.729] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[15Jan2023 00:13:19.458] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[15Jan2023 00:13:19.780] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[15Jan2023 00:13:19.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15Jan2023 00:13:20.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15Jan2023 00:13:22.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jan2023 00:13:22.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jan2023 00:13:22.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jan2023 00:13:22.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Jan2023 00:13:22.264] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[15Jan2023 00:13:22.790] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[15Jan2023 00:13:22.791] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id bluearchive:projectile_bullet_1
+[15Jan2023 00:13:22.817] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[15Jan2023 00:13:22.819] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2556 ms
+[15Jan2023 00:13:22.912] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[15Jan2023 00:13:22.915] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[15Jan2023 00:13:22.998] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[15Jan2023 00:13:23.536] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[15Jan2023 00:13:23.591] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4e839ef6
+[15Jan2023 00:13:23.609] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:d2a031ac] logged in with entity id 123 at (-2.3785976534026223, -60.0, -92.18527810835023)
+[15Jan2023 00:13:23.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[15Jan2023 00:13:24.737] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 37 advancements
+[15Jan2023 00:13:26.468] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15Jan2023 00:13:26.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:overworld
+[15Jan2023 00:13:26.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:the_end
+[15Jan2023 00:13:26.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/kyomod:lands_end_dimension
+[15Jan2023 00:13:26.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:the_nether
+[15Jan2023 00:14:09.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -2.378598, -30.000000, -92.185278]
+[15Jan2023 00:14:09.258] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -2.378598, -30.000000, -92.185278
+[15Jan2023 00:14:12.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[15Jan2023 00:14:12.295] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[15Jan2023 00:14:13.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -2.378598, -30.000000, -92.185278]
+[15Jan2023 00:14:13.507] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -2.378598, -30.000000, -92.185278
+[15Jan2023 00:14:21.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 9.806479, -30.000000, -83.141162]
+[15Jan2023 00:14:21.947] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 9.806479, -30.000000, -83.141162
+[15Jan2023 00:14:31.153] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id bluearchive:projectile_bullet_1
+[15Jan2023 00:14:31.778] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 55 advancements
+[15Jan2023 00:14:34.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -15.629616, -30.000000, -96.449921]
+[15Jan2023 00:14:34.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -15.629616, -30.000000, -96.449921
+[15Jan2023 00:14:40.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -15.629616, -30.000000, -96.449921]
+[15Jan2023 00:14:40.817] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -15.629616, -30.000000, -96.449921
+[15Jan2023 00:14:42.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell from a high place
+[15Jan2023 00:14:42.296] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell from a high place
+[15Jan2023 00:14:49.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -6.500000, -30.000000, 6.500000]
+[15Jan2023 00:14:49.975] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -6.500000, -30.000000, 6.500000
+[15Jan2023 00:15:05.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -6.500000, -30.000000, 6.500000]
+[15Jan2023 00:15:05.365] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -6.500000, -30.000000, 6.500000
+[15Jan2023 00:15:20.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -10.791712, -30.000000, 0.586089]
+[15Jan2023 00:15:20.340] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -10.791712, -30.000000, 0.586089
+[15Jan2023 00:15:29.018] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15Jan2023 00:15:29.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:overworld
+[15Jan2023 00:15:29.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:the_end
+[15Jan2023 00:15:29.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/kyomod:lands_end_dimension
+[15Jan2023 00:15:29.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:the_nether
+[15Jan2023 00:15:30.122] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[15Jan2023 00:15:30.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[15Jan2023 00:15:30.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[15Jan2023 00:15:30.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15Jan2023 00:15:30.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15Jan2023 00:15:30.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15Jan2023 00:15:31.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:overworld
+[15Jan2023 00:15:31.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:the_end
+[15Jan2023 00:15:31.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/kyomod:lands_end_dimension
+[15Jan2023 00:15:31.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Blue Archive]'/minecraft:the_nether
+[15Jan2023 00:15:31.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Blue Archive): All chunks are saved
+[15Jan2023 00:15:31.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15Jan2023 00:15:31.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lands_end_dimension): All chunks are saved
+[15Jan2023 00:15:31.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15Jan2023 00:15:31.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15Jan2023 00:15:32.445] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

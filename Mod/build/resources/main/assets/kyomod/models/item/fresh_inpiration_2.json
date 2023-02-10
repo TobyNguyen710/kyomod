@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "kyomod:items/midori_gun"
+    "layer0": "kyomod:items/weapon_icon_10016_2"
   }
 }

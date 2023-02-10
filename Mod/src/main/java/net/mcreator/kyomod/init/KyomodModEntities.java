@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.kyomod.entity.PerorozillaEntity;
 import net.mcreator.kyomod.entity.HifumiEntity;
 import net.mcreator.kyomod.entity.HifumiBulletEntity;
 import net.mcreator.kyomod.entity.Bullet1Entity;
@@ -37,6 +38,11 @@ public class KyomodModEntities {
 	public static final RegistryObject<EntityType<HifumiBulletEntity>> HIFUMI_BULLET = register("projectile_hifumi_bullet",
 			EntityType.Builder.<HifumiBulletEntity>of(HifumiBulletEntity::new, MobCategory.MISC).setCustomClientFactory(HifumiBulletEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PerorozillaEntity>> PEROROZILLA = register("perorozilla",
+			EntityType.Builder.<PerorozillaEntity>of(PerorozillaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PerorozillaEntity::new)
+
+					.sized(5f, 5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -47,6 +53,7 @@ public class KyomodModEntities {
 		event.enqueueWork(() -> {
 			BlightedGolemEntity.init();
 			HifumiEntity.init();
+			PerorozillaEntity.init();
 		});
 	}
 
@@ -54,5 +61,6 @@ public class KyomodModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(BLIGHTED_GOLEM.get(), BlightedGolemEntity.createAttributes().build());
 		event.put(HIFUMI.get(), HifumiEntity.createAttributes().build());
+		event.put(PEROROZILLA.get(), PerorozillaEntity.createAttributes().build());
 	}
 }

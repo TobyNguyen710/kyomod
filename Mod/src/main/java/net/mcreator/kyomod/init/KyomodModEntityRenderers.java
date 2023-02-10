@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.kyomod.client.renderer.PerorozillaRenderer;
 import net.mcreator.kyomod.client.renderer.HifumiRenderer;
 import net.mcreator.kyomod.client.renderer.BlightedGolemRenderer;
 
@@ -22,5 +23,6 @@ public class KyomodModEntityRenderers {
 		event.registerEntityRenderer(KyomodModEntities.BULLET_1.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.HIFUMI.get(), HifumiRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.HIFUMI_BULLET.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(KyomodModEntities.PEROROZILLA.get(), PerorozillaRenderer::new);
 	}
 }
