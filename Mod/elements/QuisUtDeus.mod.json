@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "weapon_icon_ch0069",
+    "customModelName": "Normal",
+    "name": "§5Quis ut Deus",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:BlueArchive"
+    },
+    "stackSize": 1,
+    "enchantability": 25,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 120,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.0,
+    "specialInfo": [
+      "A submachine gun that Mika loves.  A previously nondescript Trinity submachine gun that Mika passionately decorated. Now it has a special appearance that shines like a star even in the darkness. Works for Mika anytime",
+      "anywhere."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "QuisUtDeusRangeItemUsed"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

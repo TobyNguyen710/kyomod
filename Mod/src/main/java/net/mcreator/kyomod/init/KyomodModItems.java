@@ -17,6 +17,9 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.kyomod.item.Theme140Item;
 import net.mcreator.kyomod.item.Theme139Item;
 import net.mcreator.kyomod.item.ReanimateItem;
+import net.mcreator.kyomod.item.QuisUtDeusItem;
+import net.mcreator.kyomod.item.PurificationWeaverItem;
+import net.mcreator.kyomod.item.PurificationWeaverExItem;
 import net.mcreator.kyomod.item.LandsEndDimensionItem;
 import net.mcreator.kyomod.item.HifumiBulletItem;
 import net.mcreator.kyomod.item.HifumiBagItem;
@@ -34,7 +37,9 @@ import net.mcreator.kyomod.item.FreshInpirationItem;
 import net.mcreator.kyomod.item.FreshInpiration2Item;
 import net.mcreator.kyomod.item.EtOmniaVanitasItem;
 import net.mcreator.kyomod.item.EnderLiliesMusicItem;
+import net.mcreator.kyomod.item.BulletMikaExItem;
 import net.mcreator.kyomod.item.BulletItem;
+import net.mcreator.kyomod.item.BulletCondensedItem;
 import net.mcreator.kyomod.item.Bullet1Item;
 import net.mcreator.kyomod.item.BulbelItem;
 import net.mcreator.kyomod.KyomodMod;
@@ -96,6 +101,12 @@ public class KyomodModItems {
 	public static final RegistryObject<Item> PEROROZILLA = REGISTRY.register("perorozilla_spawn_egg",
 			() -> new ForgeSpawnEggItem(KyomodModEntities.PEROROZILLA, -1, -13210, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
 	public static final RegistryObject<Item> MIKA_BLOCK = block(KyomodModBlocks.MIKA_BLOCK, KyomodModTabs.TAB_BLUE_ARCHIVE);
+	public static final RegistryObject<Item> PURIFICATION_WEAVER = REGISTRY.register("purification_weaver", () -> new PurificationWeaverItem());
+	public static final RegistryObject<Item> PURIFICATION_WEAVER_EX = REGISTRY.register("purification_weaver_ex",
+			() -> new PurificationWeaverExItem());
+	public static final RegistryObject<Item> QUIS_UT_DEUS = REGISTRY.register("quis_ut_deus", () -> new QuisUtDeusItem());
+	public static final RegistryObject<Item> BULLET_MIKA_EX = REGISTRY.register("bullet_mika_ex", () -> new BulletMikaExItem());
+	public static final RegistryObject<Item> BULLET_CONDENSED = REGISTRY.register("bullet_condensed", () -> new BulletCondensedItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

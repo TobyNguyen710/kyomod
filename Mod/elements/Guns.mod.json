@@ -6,6 +6,15 @@
     "items": [
       {
         "value": "CUSTOM:FreshInpiration"
+      },
+      {
+        "value": "CUSTOM:EtOmniaVanitas"
+      },
+      {
+        "value": "CUSTOM:PurificationWeaver"
+      },
+      {
+        "value": "CUSTOM:QuisUtDeus"
       }
     ],
     "blocks": [],
@@ -13,6 +22,6 @@
     "entities": [],
     "biomes": [],
     "name": "guns",
-    "namespace": "forge"
+    "namespace": "mod"
   }
 }

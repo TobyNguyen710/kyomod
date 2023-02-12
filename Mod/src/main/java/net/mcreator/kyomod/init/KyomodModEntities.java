@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.kyomod.entity.PerorozillaEntity;
 import net.mcreator.kyomod.entity.HifumiEntity;
 import net.mcreator.kyomod.entity.HifumiBulletEntity;
+import net.mcreator.kyomod.entity.BulletMikaExEntity;
 import net.mcreator.kyomod.entity.Bullet1Entity;
 import net.mcreator.kyomod.entity.BlightedGolemEntity;
 import net.mcreator.kyomod.KyomodMod;
@@ -43,6 +44,9 @@ public class KyomodModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PerorozillaEntity::new)
 
 					.sized(5f, 5f));
+	public static final RegistryObject<EntityType<BulletMikaExEntity>> BULLET_MIKA_EX = register("projectile_bullet_mika_ex",
+			EntityType.Builder.<BulletMikaExEntity>of(BulletMikaExEntity::new, MobCategory.MISC).setCustomClientFactory(BulletMikaExEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -148,5 +148,59 @@
         "stream": true
       }
     ]
+  },
+  "sakurako_skill": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kyomod:sakurako_exskill_2",
+        "stream": false
+      }
+    ]
+  },
+  "mika_skill_hit_then_explode": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kyomod:sfx_mika_skill_hit_then_explode",
+        "stream": false
+      }
+    ]
+  },
+  "mika_skill_shoot": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kyomod:sfx_mikaex_hit01",
+        "stream": false
+      }
+    ]
+  },
+  "sfx_smg": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "kyomod:sfx_common_smg_03",
+        "stream": false
+      }
+    ]
+  },
+  "sfx_ar": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kyomod:sfx_common_ar_03",
+        "stream": false
+      }
+    ]
+  },
+  "mika_skill": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kyomod:mika_exskill_level_3",
+        "stream": false
+      }
+    ]
   }
 }

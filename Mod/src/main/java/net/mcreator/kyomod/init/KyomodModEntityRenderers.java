@@ -24,5 +24,6 @@ public class KyomodModEntityRenderers {
 		event.registerEntityRenderer(KyomodModEntities.HIFUMI.get(), HifumiRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.HIFUMI_BULLET.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.PEROROZILLA.get(), PerorozillaRenderer::new);
+		event.registerEntityRenderer(KyomodModEntities.BULLET_MIKA_EX.get(), ThrownItemRenderer::new);
 	}
 }

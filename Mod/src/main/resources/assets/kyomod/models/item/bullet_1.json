@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kyomod:items/bullet_void"
+    "layer0": "kyomod:items/roundbullets"
   },
   "display": {
     "thirdperson_righthand": {

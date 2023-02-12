@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kyomod:bullet"
+    },
+    "1": {
+      "item": "kyomod:bullet"
+    },
+    "2": {
+      "item": "kyomod:bullet"
+    },
+    "3": {
+      "item": "kyomod:bullet"
+    }
+  },
+  "result": {
+    "item": "kyomod:bullet_condensed",
+    "count": 1
+  }
+}

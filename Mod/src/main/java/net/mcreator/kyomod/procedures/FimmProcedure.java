@@ -65,7 +65,7 @@ public class FimmProcedure {
 					}
 				}.getArrow(projectileLevel, entity, 2, 1);
 				_entityToSpawn.setPos(x, (y + 1.6), z);
-				_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 15, 0);
+				_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 3, 5);
 				projectileLevel.addFreshEntity(_entityToSpawn);
 			}
 		} else {

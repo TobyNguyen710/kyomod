@@ -6,12 +6,15 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
@@ -45,25 +48,20 @@ public class TestShootProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(),
 						20);
-			{
-				Entity _shootFrom = entity;
-				Level projectileLevel = _shootFrom.level;
-				if (!projectileLevel.isClientSide()) {
-					Projectile _entityToSpawn = new Object() {
-						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
-							AbstractArrow entityToSpawn = new Bullet1Entity(KyomodModEntities.BULLET_1.get(), level);
-							entityToSpawn.setOwner(shooter);
-							entityToSpawn.setBaseDamage(damage);
-							entityToSpawn.setKnockback(knockback);
-							entityToSpawn.setSilent(true);
-							entityToSpawn.setPierceLevel(piercing);
-							return entityToSpawn;
-						}
-					}.getArrow(projectileLevel, entity, 5, 1, (byte) 1);
-					_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-					_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 15, 0);
-					projectileLevel.addFreshEntity(_entityToSpawn);
-				}
+			if (world instanceof ServerLevel projectileLevel) {
+				Projectile _entityToSpawn = new Object() {
+					public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
+						AbstractArrow entityToSpawn = new Arrow(EntityType.ARROW, level);
+						entityToSpawn.setOwner(shooter);
+						entityToSpawn.setBaseDamage(damage);
+						entityToSpawn.setKnockback(knockback);
+						entityToSpawn.setPierceLevel(piercing);
+						return entityToSpawn;
+					}
+				}.getArrow(projectileLevel, entity, 5, 1, (byte) 1);
+				_entityToSpawn.setPos(x, y, z);
+				_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 3, 0);
+				projectileLevel.addFreshEntity(_entityToSpawn);
 			}
 		} else {
 			if ((entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(KyomodModItems.BULLET.get())) : false)

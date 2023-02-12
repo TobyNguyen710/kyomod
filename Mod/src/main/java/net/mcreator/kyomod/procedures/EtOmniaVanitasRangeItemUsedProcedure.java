@@ -66,7 +66,7 @@ public class EtOmniaVanitasRangeItemUsedProcedure {
 							entityToSpawn.setSilent(true);
 							return entityToSpawn;
 						}
-					}.getArrow(projectileLevel, entity, (float) 0.8, 1);
+					}.getArrow(projectileLevel, entity, (float) 0.7, 1);
 					_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 					_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 14, 0);
 					projectileLevel.addFreshEntity(_entityToSpawn);
@@ -116,7 +116,7 @@ public class EtOmniaVanitasRangeItemUsedProcedure {
 							entityToSpawn.setSilent(true);
 							return entityToSpawn;
 						}
-					}.getArrow(projectileLevel, entity, (float) 0.8, 1);
+					}.getArrow(projectileLevel, entity, (float) 0.7, 1);
 					_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 					_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 14, 0);
 					projectileLevel.addFreshEntity(_entityToSpawn);

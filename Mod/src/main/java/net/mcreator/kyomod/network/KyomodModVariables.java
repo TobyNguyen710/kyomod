@@ -75,6 +75,8 @@ public class KyomodModVariables {
 			if (!event.isWasDeath()) {
 				clone.midoriAbility = original.midoriAbility;
 				clone.azusaAbility = original.azusaAbility;
+				clone.sakurakoAbility = original.sakurakoAbility;
+				clone.mikaAbility = original.mikaAbility;
 			}
 		}
 	}
@@ -112,6 +114,8 @@ public class KyomodModVariables {
 	public static class PlayerVariables {
 		public boolean midoriAbility = false;
 		public boolean azusaAbility = false;
+		public boolean sakurakoAbility = false;
+		public boolean mikaAbility = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +126,8 @@ public class KyomodModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("midoriAbility", midoriAbility);
 			nbt.putBoolean("azusaAbility", azusaAbility);
+			nbt.putBoolean("sakurakoAbility", sakurakoAbility);
+			nbt.putBoolean("mikaAbility", mikaAbility);
 			return nbt;
 		}
 
@@ -129,6 +135,8 @@ public class KyomodModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			midoriAbility = nbt.getBoolean("midoriAbility");
 			azusaAbility = nbt.getBoolean("azusaAbility");
+			sakurakoAbility = nbt.getBoolean("sakurakoAbility");
+			mikaAbility = nbt.getBoolean("mikaAbility");
 		}
 	}
 
@@ -156,6 +164,8 @@ public class KyomodModVariables {
 							.orElse(new PlayerVariables()));
 					variables.midoriAbility = message.data.midoriAbility;
 					variables.azusaAbility = message.data.azusaAbility;
+					variables.sakurakoAbility = message.data.sakurakoAbility;
+					variables.mikaAbility = message.data.mikaAbility;
 				}
 			});
 			context.setPacketHandled(true);

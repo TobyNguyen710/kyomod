@@ -45,4 +45,16 @@ public class KyomodModSounds {
 			() -> new SoundEvent(new ResourceLocation("kyomod", "hifumi_sensei")));
 	public static final RegistryObject<SoundEvent> THIS_GAME = REGISTRY.register("this_game",
 			() -> new SoundEvent(new ResourceLocation("kyomod", "this_game")));
+	public static final RegistryObject<SoundEvent> SAKURAKO_SKILL = REGISTRY.register("sakurako_skill",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "sakurako_skill")));
+	public static final RegistryObject<SoundEvent> MIKA_SKILL_HIT_THEN_EXPLODE = REGISTRY.register("mika_skill_hit_then_explode",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "mika_skill_hit_then_explode")));
+	public static final RegistryObject<SoundEvent> MIKA_SKILL_SHOOT = REGISTRY.register("mika_skill_shoot",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "mika_skill_shoot")));
+	public static final RegistryObject<SoundEvent> SFX_SMG = REGISTRY.register("sfx_smg",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "sfx_smg")));
+	public static final RegistryObject<SoundEvent> SFX_AR = REGISTRY.register("sfx_ar",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "sfx_ar")));
+	public static final RegistryObject<SoundEvent> MIKA_SKILL = REGISTRY.register("mika_skill",
+			() -> new SoundEvent(new ResourceLocation("kyomod", "mika_skill")));
 }
