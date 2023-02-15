@@ -19,11 +19,11 @@ import net.mcreator.kyomod.client.renderer.BlightedGolemRenderer;
 public class KyomodModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(KyomodModEntities.HIFUMI.get(), HifumiRenderer::new);
+		event.registerEntityRenderer(KyomodModEntities.PEROROZILLA.get(), PerorozillaRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.BLIGHTED_GOLEM.get(), BlightedGolemRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.BULLET_1.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(KyomodModEntities.HIFUMI.get(), HifumiRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.HIFUMI_BULLET.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(KyomodModEntities.PEROROZILLA.get(), PerorozillaRenderer::new);
 		event.registerEntityRenderer(KyomodModEntities.BULLET_MIKA_EX.get(), ThrownItemRenderer::new);
 	}
 }

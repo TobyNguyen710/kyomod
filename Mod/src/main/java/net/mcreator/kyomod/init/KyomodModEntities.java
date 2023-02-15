@@ -27,23 +27,23 @@ import net.mcreator.kyomod.KyomodMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class KyomodModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, KyomodMod.MODID);
+	public static final RegistryObject<EntityType<HifumiEntity>> HIFUMI = register("hifumi",
+			EntityType.Builder.<HifumiEntity>of(HifumiEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(HifumiEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PerorozillaEntity>> PEROROZILLA = register("perorozilla",
+			EntityType.Builder.<PerorozillaEntity>of(PerorozillaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PerorozillaEntity::new)
+
+					.sized(5f, 5f));
 	public static final RegistryObject<EntityType<BlightedGolemEntity>> BLIGHTED_GOLEM = register("blighted_golem",
 			EntityType.Builder.<BlightedGolemEntity>of(BlightedGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlightedGolemEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<Bullet1Entity>> BULLET_1 = register("projectile_bullet_1",
 			EntityType.Builder.<Bullet1Entity>of(Bullet1Entity::new, MobCategory.MISC).setCustomClientFactory(Bullet1Entity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<HifumiEntity>> HIFUMI = register("hifumi",
-			EntityType.Builder.<HifumiEntity>of(HifumiEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(HifumiEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HifumiBulletEntity>> HIFUMI_BULLET = register("projectile_hifumi_bullet",
 			EntityType.Builder.<HifumiBulletEntity>of(HifumiBulletEntity::new, MobCategory.MISC).setCustomClientFactory(HifumiBulletEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<PerorozillaEntity>> PEROROZILLA = register("perorozilla",
-			EntityType.Builder.<PerorozillaEntity>of(PerorozillaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PerorozillaEntity::new)
-
-					.sized(5f, 5f));
 	public static final RegistryObject<EntityType<BulletMikaExEntity>> BULLET_MIKA_EX = register("projectile_bullet_mika_ex",
 			EntityType.Builder.<BulletMikaExEntity>of(BulletMikaExEntity::new, MobCategory.MISC).setCustomClientFactory(BulletMikaExEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
@@ -55,16 +55,16 @@ public class KyomodModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
-			BlightedGolemEntity.init();
 			HifumiEntity.init();
 			PerorozillaEntity.init();
+			BlightedGolemEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(BLIGHTED_GOLEM.get(), BlightedGolemEntity.createAttributes().build());
 		event.put(HIFUMI.get(), HifumiEntity.createAttributes().build());
 		event.put(PEROROZILLA.get(), PerorozillaEntity.createAttributes().build());
+		event.put(BLIGHTED_GOLEM.get(), BlightedGolemEntity.createAttributes().build());
 	}
 }

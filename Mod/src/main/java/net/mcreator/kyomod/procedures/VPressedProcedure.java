@@ -397,7 +397,7 @@ public class VPressedProcedure {
 							_player.inventoryMenu.getCraftSlots());
 				}
 			}
-			KyomodMod.queueServerWork(100, () -> {
+			KyomodMod.queueServerWork(480, () -> {
 				{
 					boolean _setval = false;
 					entity.getCapability(KyomodModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

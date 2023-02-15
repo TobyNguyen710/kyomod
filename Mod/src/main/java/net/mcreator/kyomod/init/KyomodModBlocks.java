@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.kyomod.block.SupremeGeneratorBlock;
 import net.mcreator.kyomod.block.MikaBlockBlock;
+import net.mcreator.kyomod.block.MidoriBlockBlock;
 import net.mcreator.kyomod.block.LilyBlock;
 import net.mcreator.kyomod.block.LandsEndDimensionPortalBlock;
 import net.mcreator.kyomod.block.HaloOreBlock;
@@ -38,6 +39,8 @@ public class KyomodModBlocks {
 	public static final RegistryObject<Block> HALO_BLOCK = REGISTRY.register("halo_block", () -> new HaloBlockBlock());
 	public static final RegistryObject<Block> GENERATOR = REGISTRY.register("generator", () -> new GeneratorBlock());
 	public static final RegistryObject<Block> SUPREME_GENERATOR = REGISTRY.register("supreme_generator", () -> new SupremeGeneratorBlock());
+	public static final RegistryObject<Block> MIKA_BLOCK = REGISTRY.register("mika_block", () -> new MikaBlockBlock());
+	public static final RegistryObject<Block> MIDORI_BLOCK = REGISTRY.register("midori_block", () -> new MidoriBlockBlock());
 	public static final RegistryObject<Block> LANDS_END_DIMENSION_PORTAL = REGISTRY.register("lands_end_dimension_portal",
 			() -> new LandsEndDimensionPortalBlock());
 	public static final RegistryObject<Block> BLIGHTED_GRASS = REGISTRY.register("blighted_grass", () -> new BlightedGrassBlock());
@@ -56,5 +59,4 @@ public class KyomodModBlocks {
 	public static final RegistryObject<Block> BLIGHTED_WOOD_PRESSURE_PLATE = REGISTRY.register("blighted_wood_pressure_plate",
 			() -> new BlightedWoodPressurePlateBlock());
 	public static final RegistryObject<Block> BLIGHTED_WOOD_BUTTON = REGISTRY.register("blighted_wood_button", () -> new BlightedWoodButtonBlock());
-	public static final RegistryObject<Block> MIKA_BLOCK = REGISTRY.register("mika_block", () -> new MikaBlockBlock());
 }

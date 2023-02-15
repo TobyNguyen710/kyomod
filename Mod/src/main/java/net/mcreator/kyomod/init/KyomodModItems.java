@@ -62,14 +62,26 @@ public class KyomodModItems {
 	public static final RegistryObject<Item> HALLOW_ARMOR_LEGGINGS = REGISTRY.register("hallow_armor_leggings", () -> new HallowArmorItem.Leggings());
 	public static final RegistryObject<Item> HALLOW_ARMOR_BOOTS = REGISTRY.register("hallow_armor_boots", () -> new HallowArmorItem.Boots());
 	public static final RegistryObject<Item> BULLET = REGISTRY.register("bullet", () -> new BulletItem());
+	public static final RegistryObject<Item> BULLET_CONDENSED = REGISTRY.register("bullet_condensed", () -> new BulletCondensedItem());
 	public static final RegistryObject<Item> FRESH_INPIRATION_2 = REGISTRY.register("fresh_inpiration_2", () -> new FreshInpiration2Item());
 	public static final RegistryObject<Item> FRESH_INPIRATION = REGISTRY.register("fresh_inpiration", () -> new FreshInpirationItem());
 	public static final RegistryObject<Item> ET_OMNIA_VANITAS = REGISTRY.register("et_omnia_vanitas", () -> new EtOmniaVanitasItem());
+	public static final RegistryObject<Item> PURIFICATION_WEAVER = REGISTRY.register("purification_weaver", () -> new PurificationWeaverItem());
+	public static final RegistryObject<Item> PURIFICATION_WEAVER_EX = REGISTRY.register("purification_weaver_ex",
+			() -> new PurificationWeaverExItem());
+	public static final RegistryObject<Item> QUIS_UT_DEUS = REGISTRY.register("quis_ut_deus", () -> new QuisUtDeusItem());
 	public static final RegistryObject<Item> THEME_140 = REGISTRY.register("theme_140", () -> new Theme140Item());
 	public static final RegistryObject<Item> THEME_139 = REGISTRY.register("theme_139", () -> new Theme139Item());
 	public static final RegistryObject<Item> REANIMATE = REGISTRY.register("reanimate", () -> new ReanimateItem());
 	public static final RegistryObject<Item> GENERATOR = block(KyomodModBlocks.GENERATOR, KyomodModTabs.TAB_BLUE_ARCHIVE);
 	public static final RegistryObject<Item> SUPREME_GENERATOR = block(KyomodModBlocks.SUPREME_GENERATOR, KyomodModTabs.TAB_BLUE_ARCHIVE);
+	public static final RegistryObject<Item> HIFUMI_BAG = REGISTRY.register("hifumi_bag", () -> new HifumiBagItem());
+	public static final RegistryObject<Item> HIFUMI = REGISTRY.register("hifumi_spawn_egg",
+			() -> new ForgeSpawnEggItem(KyomodModEntities.HIFUMI, -103, -1, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
+	public static final RegistryObject<Item> PEROROZILLA = REGISTRY.register("perorozilla_spawn_egg",
+			() -> new ForgeSpawnEggItem(KyomodModEntities.PEROROZILLA, -1, -13210, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
+	public static final RegistryObject<Item> MIKA_BLOCK = block(KyomodModBlocks.MIKA_BLOCK, KyomodModTabs.TAB_BLUE_ARCHIVE);
+	public static final RegistryObject<Item> MIDORI_BLOCK = block(KyomodModBlocks.MIDORI_BLOCK, KyomodModTabs.TAB_BLUE_ARCHIVE);
 	public static final RegistryObject<Item> ENDER_LILIES_MUSIC = REGISTRY.register("ender_lilies_music", () -> new EnderLiliesMusicItem());
 	public static final RegistryObject<Item> HARMONIOUS = REGISTRY.register("harmonious", () -> new HarmoniousItem());
 	public static final RegistryObject<Item> BULBEL = REGISTRY.register("bulbel", () -> new BulbelItem());
@@ -94,19 +106,8 @@ public class KyomodModItems {
 			KyomodModTabs.TAB_ENDER_LILIES);
 	public static final RegistryObject<Item> BLIGHTED_WOOD_BUTTON = block(KyomodModBlocks.BLIGHTED_WOOD_BUTTON, KyomodModTabs.TAB_ENDER_LILIES);
 	public static final RegistryObject<Item> BULLET_1 = REGISTRY.register("bullet_1", () -> new Bullet1Item());
-	public static final RegistryObject<Item> HIFUMI = REGISTRY.register("hifumi_spawn_egg",
-			() -> new ForgeSpawnEggItem(KyomodModEntities.HIFUMI, -103, -1, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
 	public static final RegistryObject<Item> HIFUMI_BULLET = REGISTRY.register("hifumi_bullet", () -> new HifumiBulletItem());
-	public static final RegistryObject<Item> HIFUMI_BAG = REGISTRY.register("hifumi_bag", () -> new HifumiBagItem());
-	public static final RegistryObject<Item> PEROROZILLA = REGISTRY.register("perorozilla_spawn_egg",
-			() -> new ForgeSpawnEggItem(KyomodModEntities.PEROROZILLA, -1, -13210, new Item.Properties().tab(KyomodModTabs.TAB_BLUE_ARCHIVE)));
-	public static final RegistryObject<Item> MIKA_BLOCK = block(KyomodModBlocks.MIKA_BLOCK, KyomodModTabs.TAB_BLUE_ARCHIVE);
-	public static final RegistryObject<Item> PURIFICATION_WEAVER = REGISTRY.register("purification_weaver", () -> new PurificationWeaverItem());
-	public static final RegistryObject<Item> PURIFICATION_WEAVER_EX = REGISTRY.register("purification_weaver_ex",
-			() -> new PurificationWeaverExItem());
-	public static final RegistryObject<Item> QUIS_UT_DEUS = REGISTRY.register("quis_ut_deus", () -> new QuisUtDeusItem());
 	public static final RegistryObject<Item> BULLET_MIKA_EX = REGISTRY.register("bullet_mika_ex", () -> new BulletMikaExItem());
-	public static final RegistryObject<Item> BULLET_CONDENSED = REGISTRY.register("bullet_condensed", () -> new BulletCondensedItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kyomod:blocks/midori_block",
+    "up": "kyomod:blocks/midori_block",
+    "north": "kyomod:blocks/midori_block",
+    "east": "kyomod:blocks/midori_block",
+    "south": "kyomod:blocks/midori_block",
+    "west": "kyomod:blocks/midori_block",
+    "particle": "kyomod:blocks/midori_block"
+  },
+  "render_type": "solid"
+}

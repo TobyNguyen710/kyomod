@@ -12,7 +12,7 @@ public class PurificationWeaverItemInInventoryTickNBTProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (itemstack.getOrCreateTag().getDouble("SakurakoExTimer") == 200) {
+		if (itemstack.getOrCreateTag().getDouble("SakurakoExTimer") == 240) {
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(KyomodModItems.PURIFICATION_WEAVER_EX.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,

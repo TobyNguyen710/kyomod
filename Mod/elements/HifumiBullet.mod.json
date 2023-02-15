@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "bullet_void",
+    "texture": "roundbullets",
     "customModelName": "Normal",
     "name": "Bullet 1",
     "specialInfo": [],
